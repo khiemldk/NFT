@@ -1,0 +1,46 @@
+.root {
+}
+
+.root h2 {
+  font-size: 40px;
+  color: var(--accent-turquoise);
+}
+
+.root h5 {
+  font-size: 14px;
+  color: var(--accent-turquoise);
+}
+
+.root .textColor {
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.root .textColor span {
+  font-size: 14px;
+}
+
+.root .description {
+  color: #ffffff;
+}
+
+.root .customBtn {
+  min-width: 160px;
+}
+
+.root .customBtnView {
+  min-width: 160px;
+  background: transparent;
+  border: 1px solid var(--turquoise-dark);
+}
+
+@media (max-width: 767px) {
+  .root h2 {
+    font-size: 30px;
+  }
+  .root .customBtn,
+  .root .customBtnView {
+    min-width: calc(50% - 1.5rem);
+  }
+}

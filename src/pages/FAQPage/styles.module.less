@@ -1,0 +1,23 @@
+.root {
+  padding-top: var(--nav-bar-height);
+  & .customBtnFAQ {
+    height: 40px;
+    background: #ffffff !important;
+  }
+
+  & .faqSubscribe {
+    margin: 100px -50px;
+    background: rgba(13, 114, 90, 0.22);
+    height: 150px;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 767px) {
+  .root {
+    & .faqSubscribe {
+      margin: 50px -10px;
+      padding: 0 20px;
+    }
+  }
+}

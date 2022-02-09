@@ -1,0 +1,23 @@
+.root {
+  margin: 0 3vw !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.root .verdant {
+  width: 75%;
+}
+
+.root .classDesBrand {
+  width: 50%;
+}
+
+@media (max-width: 767px) {
+  .root .verdant {
+    width: 100%;
+  }
+  .root .classDesBrand {
+    width: 100%;
+  }
+}

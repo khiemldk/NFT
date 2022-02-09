@@ -1,0 +1,26 @@
+.root {
+  color: #ffffff;
+}
+
+.root .titleEditHistory {
+  font-size: 16px;
+}
+
+.root .opacityText {
+  color: #828282;
+}
+
+.root .underlineText {
+  text-decoration: underline;
+}
+
+.root .titleHistory {
+  color: #ffffff;
+  font-size: 40px;
+}
+
+@media (max-width: 767px) {
+  .root .titleHistory {
+    font-size: 26px;
+  }
+}

@@ -1,0 +1,1 @@
+export { BoxAbout } from './BoxAbout';

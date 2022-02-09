@@ -1,0 +1,10 @@
+.root {
+}
+
+.root input ~ span {
+  border: 1px solid #ffffff;
+  background: #ffffff;
+}
+
+.root .textLable {
+}

@@ -1,0 +1,13 @@
+.root {
+  padding-top: var(--nav-bar-height);
+  margin: 60px 3vw;
+}
+.root .classTitleNFT {
+  width: 50%;
+}
+
+@media (max-width: 767px) {
+  .root .classTitleNFT {
+    width: 100%;
+  }
+}

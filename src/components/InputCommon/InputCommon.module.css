@@ -1,0 +1,10 @@
+.root,
+.root:hover,
+.root:focus {
+  border-color: #ffffff;
+  background: var(--accent-turquoise);
+}
+
+.root::selection {
+  background: #ffffff;
+}

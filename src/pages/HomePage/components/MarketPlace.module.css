@@ -1,0 +1,11 @@
+.root {
+  padding: 60px 0;
+}
+
+.root .marketPlace {
+  margin: 0 calc(3vw - 12px) !important;
+}
+
+.marketPlaceImage {
+  width: 100%;
+}

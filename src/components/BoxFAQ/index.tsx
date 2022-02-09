@@ -1,0 +1,1 @@
+export { BoxFAQ } from './BoxFAQ';

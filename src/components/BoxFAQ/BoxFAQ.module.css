@@ -1,0 +1,36 @@
+.root {
+  width: 75%;
+}
+
+.root .question {
+  border-bottom: 1px solid var(--turquoise-dark);
+}
+
+.root .iconDown,
+.root .contentDes {
+  color: #ffffff;
+}
+
+.root .boxFAQTitle {
+  font-size: 20px;
+}
+
+.root .contentDes {
+  overflow-x: hidden;
+  max-height: 0;
+  transition: all 0.5s;
+}
+
+.root .showContent {
+  max-height: 500px;
+}
+
+.root .contentDes::-webkit-scrollbar {
+  width: 0;
+}
+
+@media (max-width: 767px) {
+  .root {
+    width: 100%;
+  }
+}

@@ -1,0 +1,113 @@
+.root {
+  border-radius: 8px !important;
+  box-shadow: 0px 0px 10px #00000026 !important;
+  padding: 12px 24px !important;
+  height: 40px !important;
+  line-height: 1 !important;
+  font-weight: 500;
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.default {
+  border: 2px solid var(--accent-turquoise) !important;
+  color: var(--accent-turquoise) !important;
+}
+
+.primary {
+  border: none !important;
+  background: var(--turquoise-dark) !important;
+  color: #ffffff !important;
+}
+
+.text {
+  border: none !important;
+  background: none !important;
+  color: #ffffff !important;
+  box-shadow: none !important;
+}
+
+.secondary {
+  border: none !important;
+  background: var(--accent-turquoise) !important;
+  color: #ffffff !important;
+  &:hover {
+    background: #ffffff !important;
+    color: var(--accent-turquoise) !important;
+  }
+}
+
+.info {
+  border: none !important;
+  background: var(--accent-blue) !important;
+  color: #ffffff !important;
+  &:hover {
+    background: #ffffff !important;
+    color: var(--accent-blue) !important;
+  }
+}
+
+.link {
+  border: none !important;
+  background: transparent !important;
+  color: #ffffff !important;
+}
+
+.success {
+  background: var(--success) !important;
+  border: none;
+  color: #09625d !important;
+
+  &:hover {
+    color: #fff !important;
+  }
+}
+
+.disabled {
+  background: #797979 !important;
+  border: none;
+  color: var(--tint-2) !important;
+  &:hover {
+    color: #fff !important;
+  }
+}
+
+.error {
+  border: none !important;
+  background: var(--error) !important;
+  color: #fff !important;
+  &:hover {
+    color: var(--error) !important;
+    background: #fff !important;
+  }
+}
+
+.large {
+  height: 58px !important;
+}
+
+.large span {
+  font-size: 22px !important;
+  font-weight: 500 !important;
+}
+
+.small {
+  height: 20px !important;
+  padding: 2px 12px 3px 12px !important;
+  border-width: 1px !important;
+}
+
+.small span {
+  font-size: 12px !important;
+  font-weight: normal !important;
+  line-height: 19px !important;
+}
+
+.default.small span {
+  line-height: 14px !important;
+}
+
+.root[ant-click-animating-without-extra-node='true']::after {
+  display: none;
+}

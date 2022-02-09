@@ -1,0 +1,26 @@
+.root {
+}
+
+.root .filterTitle {
+  font-size: 26px;
+  line-height: 32px;
+  color: #ffffff;
+}
+
+.root .filterTitle img {
+  height: 26px;
+}
+
+.root .typeFilter {
+  font-size: 20px;
+}
+
+.root .listInput {
+  width: 75%;
+}
+
+@media (max-width: 767px) {
+  .root .listInput {
+    width: 100%;
+  }
+}

@@ -1,0 +1,42 @@
+.root {
+  position: fixed;
+  padding: 0 !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #323232 !important;
+  height: var(--nav-bar-height) !important;
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  z-index: 10;
+}
+
+.content {
+  line-height: normal;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: flex;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  align-items: center;
+  height: 100%;
+}
+
+.menu {
+  flex: 1 1;
+  background: none !important;
+  border: none !important;
+}
+
+.menu :global .ant-menu-item-selected a,
+.menu :global .ant-menu-submenu-selected a {
+  color: #fff !important;
+}
+
+.menu :global .ant-menu-item-active a {
+  color: var(--orange-main) !important;
+}
+
+.menu li {
+  padding: 8px 16px !important;
+}

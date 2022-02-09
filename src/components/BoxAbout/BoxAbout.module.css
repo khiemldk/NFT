@@ -1,0 +1,15 @@
+.root {
+}
+.root div h5 {
+  color: var(--accent-turquoise);
+  font-size: 20px;
+}
+.root img {
+  width: 45px;
+  height: 45px;
+}
+
+.root div div {
+  color: #ffffff;
+  text-align: justify;
+}

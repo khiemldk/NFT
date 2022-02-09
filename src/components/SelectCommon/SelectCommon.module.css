@@ -1,0 +1,14 @@
+.root {
+  background: var(--accent-turquoise);
+  width: 75%;
+}
+
+.root > div {
+  border-color: #ffffff !important;
+}
+
+@media (max-width: 767px) {
+  .root {
+    width: 100%;
+  }
+}

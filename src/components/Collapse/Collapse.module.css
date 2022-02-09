@@ -1,0 +1,18 @@
+.collapse {
+  width: 100%;
+  max-width: 600px;
+  text-align: left;
+}
+
+.collapse :global .ant-collapse-header {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.collapse :global .ant-collapse-item {
+  border-bottom: 1px solid var(--accent-turquoise);
+}
+
+.collapse :global .ant-collapse-content-box {
+  font-weight: 500;
+}

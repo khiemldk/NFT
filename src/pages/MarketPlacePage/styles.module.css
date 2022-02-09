@@ -1,0 +1,54 @@
+.root {
+  padding-top: var(--nav-bar-height);
+  margin: 50px 3vw;
+}
+
+.root .marketplaceTitle {
+  font-size: 40px;
+  color: var(--accent-turquoise);
+}
+
+.root .activeMarketMenu {
+  background: #ffffff !important;
+  color: var(--accent-turquoise) !important;
+}
+
+.root .menuMarketItem {
+  min-width: 160px;
+  background: rgba(255, 250, 250, 0.25);
+  border-radius: 10px;
+  color: #ffffff;
+}
+
+.root .customPagination button {
+  border: 1px solid #ffffff;
+}
+
+.root .customPagination li {
+  border: 1px solid #ffffff;
+  background: var(--accent-turquoise);
+  margin-right: 0;
+}
+
+.root .customPreNext {
+  color: #ffffff;
+  margin-right: -16px;
+}
+
+.root .customBtnPre {
+  border-radius: 10px 0px 0px 10px;
+  padding: 0 20px;
+  border: 1px solid #ffffff;
+}
+
+.root .customBtnNext {
+  padding: 0 20px;
+  border: 1px solid #ffffff;
+  border-radius: 0px 10px 10px 0px;
+}
+
+@media (max-width: 767px) {
+  .root .marketplaceTitle {
+    font-size: 34px;
+  }
+}

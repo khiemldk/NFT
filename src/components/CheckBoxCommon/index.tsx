@@ -1,0 +1,1 @@
+export { CheckBoxCommon } from './CheckBoxCommon';

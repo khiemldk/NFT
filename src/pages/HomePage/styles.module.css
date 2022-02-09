@@ -1,0 +1,4 @@
+.root {
+  padding-top: var(--nav-bar-height);
+  min-height: 70vh;
+}
